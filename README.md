@@ -10,7 +10,7 @@ Warehouse File Types - PDF, PPTX (for now)
 
 Install PostgreSQL
 
-Install pgAdmin III
+Install pgAdmin 4
 
 Install Python 2.7
 
@@ -27,5 +27,7 @@ Clone this repository and replace all the files in the DW folder with your own P
 That's it, run the query.py file using "python query.py" command from command prompt
 
 The results will show the file(s) having your string
+
+Alternatively, use the UI.html and UI.php on a Web Server to get the results
 
 P.S. Python is finicky about indentation sometimes, so be careful about it. This is tested on a Windows machine. Use pgAdmin III to check for table creation and table load

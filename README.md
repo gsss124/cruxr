@@ -30,4 +30,4 @@ The results will show the file(s) having your string
 
 Alternatively, use the UI.html and UI.php on a Web Server to get the results
 
-P.S. Python is finicky about indentation sometimes, so be careful about it. This is tested on a Windows machine. Use pgAdmin III to check for table creation and table load
+P.S. Python is finicky about indentation sometimes, so be careful about it. This is tested on a Windows machine. Use pgAdmin (3 or 4) to check for table creation and table load

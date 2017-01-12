@@ -7,7 +7,7 @@ humaninput = raw_input("\nEnter string query:")
 humaninput = str(humaninput)
 
 try:
-   cur.execute("SELECT dwfilename FROM test WHERE to_tsvector('english', completetext) @@ to_tsquery('english', %(tag)s)", {'tag': humaninput})
+   cur.execute("SELECT dwfilename FROM test WHERE to_tsvector(completetext||' '||allocrtext) @@ to_tsquery(%(tag)s)", {'tag': humaninput})
    print "\nYour string appears in the following file(s):\n"
    for record in cur:
        record = str(record)

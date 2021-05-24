@@ -6,9 +6,9 @@ Database - SQLite, PostgreSQL, etc
 
 Warehouse File Types - PDF, PPTX (for now)
 
---USAGE--
+Updating to Django [Backend] and Bootstrap [Frontend] - stay tuned!
 
-Updating to Python 3 [Backend] and Django 3 [Frontend]
+-- LIBRARIES --
 
 Install PDF Miner on your Python installation, follow this guide -> http://www.unixuser.org/~euske/python/pdfminer/#install
 

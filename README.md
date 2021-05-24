@@ -2,32 +2,16 @@ Generic Searchable Datawarehouse - Processing PDFs, PPTs, etc
 
 Language - Python
 
-Database - PostgreSQL
+Database - SQLite, PostgreSQL, etc
 
 Warehouse File Types - PDF, PPTX (for now)
 
 --USAGE--
 
-Install PostgreSQL
-
-Install pgAdmin 4
-
-Install Python 2.7
+Updating to Python 3 [Backend] and Django 3 [Frontend]
 
 Install PDF Miner on your Python installation, follow this guide -> http://www.unixuser.org/~euske/python/pdfminer/#install
 
 Install python-pptx on your Python installation, follow this guide -> https://python-pptx.readthedocs.io/en/latest/user/install.html#install
 
-Install psycopg2 on your Python installation, follow this guide -> http://initd.org/psycopg/docs/install.html
-
-Run initiate-table.py from command prompt using "python initiate-table.py" command
-
-Clone this repository and replace all the files in the DW folder with your own PDF and PPTX files
-
-That's it, run the query.py file using "python query.py" command from command prompt
-
-The results will show the file(s) having your string
-
-Alternatively, use the UI.html and UI.php on a Web Server to get the results
-
-P.S. Python is finicky about indentation sometimes, so be careful about it. This is tested on a Windows machine. Use pgAdmin (3 or 4) to check for table creation and table load
+Django uses SQLite database by default, edit settings.py to configure your Database of choice!

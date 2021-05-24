@@ -8,7 +8,9 @@ Warehouse File Types - PDF, PPTX (for now)
 
 Updating to Django [Backend] and Bootstrap [Frontend] - stay tuned!
 
--- LIBRARIES --
+-- NOTES --
+
+Pipenv virtual environment is recommended to be used
 
 Install PDF Miner on your Python installation, follow this guide -> http://www.unixuser.org/~euske/python/pdfminer/#install
 
